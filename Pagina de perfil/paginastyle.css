@@ -1,0 +1,176 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 62, 62);
+    align-items: center;
+    font-family:sans-serif;
+    justify-content:center;
+    
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+
+}
+.nav-links, .a1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding-inline: 7px;
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+}
+
+li {
+    padding: 6px 5px;
+}
+.nav-title { 
+    color: aliceblue;
+    padding-left: 5px;
+    margin-block-start: 0%;
+    margin-block-end: 0%;    
+}
+
+button {
+    box-shadow:rgb(19, 18, 18) 5px 5px;
+    background-color: rgb(71, 198, 198);
+    color:aliceblue ;
+    padding: 4px;
+    border-color: black;
+    margin-left: 200px;
+    align-items: center;
+}
+#active{
+    color: aliceblue;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.user{
+    padding: 20px;
+}
+
+.tarjetausuario{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid rgb(199, 194, 194);
+    
+}
+header{
+    background-color: rgb(86, 217, 244);
+    position: relative;
+    padding: 50px;
+}
+.imagenusuario {
+    width: 80px;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    border: 5px solid rgb(199, 194, 194);
+    border-radius: 50%;
+    padding: 1px;
+    
+}
+main{
+    padding: 15px;
+}
+h2 { 
+    margin-top: 15px;
+}
+.ubicacion, .edition {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.icon-s{
+    width: 20px;
+
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 3px solid rgb(199, 194, 194); 
+    height: 120px;
+}
+
+.request{
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    margin-top: 20px;
+    border: 2px solid rgb(199, 194, 194); 
+    
+}
+
+.item-tittle{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    background: black; 
+    color: azure;
+    width: 100%;   
+    padding-top: 15px;   
+}
+.people{
+    display: inline-block;
+    flex-direction:column ;
+    border: 1px solid grey;
+    padding: 10px;  
+    justify-content: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 1px;
+    margin-right: 10px;
+
+}
+
+.circulo{
+    background-color: rgb(172, 173, 173);
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-self: center;
+    text-align: center;
+    font-size: large;
+}
+.circulo2{
+    background-color: rgb(172, 173, 173);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 25px;  
+    align-self: center;
+    text-align: center;
+}
+.link{
+    display: flex;
+    border-top: 2px solid gray;
+}
+.icon1{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+
+}
